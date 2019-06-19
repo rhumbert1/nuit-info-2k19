@@ -2,13 +2,12 @@
   color: black;
   font-size: 40px;
   font-family: 'Open Sans';
+  width: 100%;
 }
 
 .titre-table{
-  margin-top: 50%;
   color: black;
-  width: auto;
-  height: auto;
+  width: 100%;
   font-size: 40px;
   font-family: 'Open Sans';
 }
@@ -141,14 +140,14 @@
   font-size: 16px;
   max-width: 1000px;
   left: 20%;
-  margin-right: auto;
+  margin: auto;
   width: 100%;
   padding: 10px;
   margin-top: 7%;
-  display: block;
   flex-wrap: wrap;
   align-content: center;
   position: relative;
+  display: flex;
 }
 .snip1404 img {
   position: absolute;
@@ -159,16 +158,14 @@
 }
 .snip1404 .plan {
   margin: 6px;
-  margin-top: 7px;
   width: 25%;
   position: relative;
-  float: left;
   overflow: hidden;
   border: 5px solid #730000;
   box-shadow: 0px 0px 10px #000;
   background-color: #b30000;
 }
-.plan:hover{
+.snip1404 .plan:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
