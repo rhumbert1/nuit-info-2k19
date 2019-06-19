@@ -247,13 +247,15 @@ body, html {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 .snip1404 {
+  position: relative;
   font-family: 'Open Sans';
   color: #ffffff;
   text-align: left;
   font-size: 16px;
   width: 100%;
   padding: 10px;
-  margin: 10% auto;
+  margin-top: 10%;
+  left: 10%;
   flex-wrap: wrap;
   display: flex;
 }
@@ -265,9 +267,8 @@ body, html {
   z-index: -1;
 }
 .snip1404 .plan {
-  margin: 0 auto;
   width: 25%;
-  margin-right: 15px;
+  margin-right: 21px;
   position: relative;
   overflow: hidden;
   border: 5px solid #730000;
