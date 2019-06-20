@@ -1,9 +1,3 @@
-$(".hover").mouseleave(
-  function () {
-    $(this).removeClass("hover");
-  }
-);
-
 function responsiveNavbar() {
   var x = document.getElementById("myNavbar");
   if (x.className === "navbar") {
