@@ -22,8 +22,8 @@ function responsiveNavbar() {
   }
 }
 
-var txt = getElementsByName('address');
-var str = txt.split(",");
+//var txt = getElementsByName('address');
+//var str = txt.split(",");
 
 var placeSearch, autocomplete;
 
@@ -158,4 +158,4 @@ function fillInAddress() {
 
 
 
-})(jQuery);
+})
