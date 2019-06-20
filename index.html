@@ -4,22 +4,36 @@
   <link rel="stylesheet" type="text/css" href="css/accueil.css" media="all">
   <link rel="stylesheet" type="text/css"href="css/util.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 <body>
 
 <div class="navbar" id="myNavbar">
-  <img src="images/logo MS.png" id="logo">
+  <img src="images/logo MS.png" id="logo" alt="" onclick="openUrl()">
   <div class="dropdown">
-    <button class="dropbtn" id="entretenir">Entretenir</button>
+    <button class="dropbtn">Entretenir</button>
     <div class="dropdown-content">
       <a href="">Chauffage</a>
       <a href="">Climatisation / Ventilation</a>
       <a href="">Sanitaire</a>
     </div>
   </div>
-  <a href="" id="depanner">Dépanner</a>
-  <a href="" id="installer">Installer</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dépanner</button>
+    <div class="dropdown-content">
+      <a href="">Chauffage</a>
+      <a href="">Climatisation / Ventilation</a>
+      <a href="">Sanitaire</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" id="entretenir">Installer</button>
+    <div class="dropdown-content">
+      <a href="">Chauffage</a>
+      <a href="">Climatisation / Ventilation</a>
+      <a href="">Sanitaire</a>
+    </div>
+  </div>
   <a href="" id="urgent">Dépannage Urgent</a>
   <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a>
 </div>
@@ -27,178 +41,15 @@
 <div id="fond"><img src="images/chaudiere/fond3.jpg" alt=""></div>
 
 <div class="contenu">
-<div class="snip1404">
-<h2 class="titre-table"><div class="fond-titre-plan accordion">Contrats Chaudière Gaz<i class="arrow down"></i></div></h2>
-  <div class="plan panel">
-      <h4 class="plan-title">
-        Contrat 1 an
-      </h4>
-      <div class="plan-cost"><span class="plan-price">188€</span><span class="plan-type">/an</span></div>
-    <ul class="plan-features">
-      <li>1 intervention/an</li>
-      <li style="margin-bottom:63%;"></li>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-  <div class="plan panel">
-    <h4 class="plan-title">
-      Contrat 5 ans
-    </h4>
-    <div class="plan-cost"><span class="plan-price">164€</span><span class="plan-type">/an</span></div>
-  <ul class="plan-features">
-    <li>1 intervention/an</li>
-    <li>Réduction de 15%</li>
-    <li style="margin-bottom:47%;"></li>
-  </ul>
-  <div class="plan-select"><a href="">Choisir</a></div>
-</div>
-  <div class="plan panel">
-    <header>
-      <h4 class="plan-title">
-        contrat 10 ans
-      </h4>
-      <div class="plan-cost"><span class="plan-price">520€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-            <li>1 intervention/an</li>
-      <li>Réduction de 15%</li>
-      <li><div class="text-garantie">Garantie totale</div></li>
-      <li><div class="text-garantie">Remplacement gratuit en cas d'impossibilité de dépannage</div></li>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-</div>
+  <p>
+  Le Home Service de Mersch & Schmitz est spécialisé dans l’entretien, le dépannage et le remplacement d’installations de chauffage, de climatisation et sanitaires. Il accompagne ses clients particuliers et professionnels depuis l’année 1976.<br><br>
 
-<div class="snip1404">
-  <h2 class="titre-table">Contrats Chaudière Fioul</h2>
-  <div class="plan">
-    <header>
-      <h4 class="plan-title">
-        Contrat 1 an
-      </h4>
-      <div class="plan-cost"><span class="plan-price">225€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-      <li>1 intervention/an</li>
-      <li style="margin-bottom:63%;"></li>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-  <div class="plan">
-    <h4 class="plan-title">
-      Contrat 5 ans
-    </h4>
-    <div class="plan-cost"><span class="plan-price">196€</span><span class="plan-type">/an</span></div>
-  <ul class="plan-features">
-    <li>Réduction de 15%</li>
-    <li>1 intervention/an</li>
-    <li style="margin-bottom:47%;"></li>
-  </ul>
-  <div class="plan-select"><a href="">Choisir</a></div>
-</div>
-  <div class="plan">
-    <header>
-      <h4 class="plan-title">
-        contrat 10 ans
-      </h4>
-      <div class="plan-cost"><span class="plan-price">552€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-      <li>Réduction de 15%</li>
-      <li>Garantie totale</li>
-      <div class="text-garantie"><li>1 intervention/an</li>
-        <li>Remplacement gratuit en cas d'impossibilité de dépannage</li></div>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-</div>
+  Disposant du savoir-faire indispensable pour assurer une efficience énergétique optimale, le Home Service réalise l’entretien, la conduite et la maintenance des équipements de chauffage, de froid, de ventilation et sanitaires. Il accompagne et conseille également ses clients pour l’optimisation énergétique, dans le cadre de la rénovation de bâtiments et maisons existantes.<br><br>
 
-<div class="snip1404">
-  <h2 class="titre-table">Contrats Boiler</h2>
-  <div class="plan">
-    <header>
-      <h4 class="plan-title">
-        Contrat 1 an
-      </h4>
-      <div class="plan-cost"><span class="plan-price">38€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-      <li>1 intervention/an</li>
-      <li style="margin-bottom:63%;"></li>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-  <div class="plan">
-    <h4 class="plan-title">
-      Contrat 5 ans
-    </h4>
-    <div class="plan-cost"><span class="plan-price">33€</span><span class="plan-type">/an</span></div>
-  <ul class="plan-features">
-    <li>Réduction de 15%</li>
-    <li>1 intervention/an</li>
-    <li style="margin-bottom:47%;"></li>
-  </ul>
-  <div class="plan-select"><a href="">Choisir</a></div>
-</div>
-  <div class="plan">
-    <header>
-      <h4 class="plan-title">
-        contrat 10 ans
-      </h4>
-      <div class="plan-cost"><span class="plan-price">186€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-      <li>Réduction de 15%</li>
-      <li>Garantie totale</li>
-      <div class="text-garantie"><li>1 intervention/an</li>
-      <li>Remplacement gratuit en cas d'impossibilité de dépannage</li></div>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-</div>
+  Pour toutes vos demandes, que ce soit pour un dépannage urgent, un devis pour le remplacement de votre équipement, ou un contrat de maintenance sur mesure adapté à vos besoins, n’hésitez pas à contacter nos services.<br><br>
 
-<div class="snip1404">
-  <h2 class="titre-table">Contrats Cheminée</h2>
-  <div class="plan">
-    <header>
-      <h4 class="plan-title">
-        Contrat 1 an
-      </h4>
-      <div class="plan-cost"><span class="plan-price">146€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-      <li>1 intervention/an</li>
-      <li style="margin-bottom:63%;"></li>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-  <div class="plan">
-    <h4 class="plan-title">
-      Contrat 5 ans
-    </h4>
-    <div class="plan-cost"><span class="plan-price">127€</span><span class="plan-type">/an</span></div>
-  <ul class="plan-features">
-    <li>1 intervention/an</li>
-    <li>Réduction de 15%</li>
-    <li style="margin-bottom:47%;"></li>
-  </ul>
-  <div class="plan-select"><a href="">Choisir</a></div>
+  A proximité de chez vous, nos équipes peuvent intervenir à votre domicile à tout moment.</p>
 </div>
-  <div class="plan">
-    <header>
-      <h4 class="plan-title">
-        contrat 10 ans
-      </h4>
-      <div class="plan-cost"><span class="plan-price">127€</span><span class="plan-type">/an</span></div>
-    </header>
-    <ul class="plan-features">
-      <li>1 intervention/an</li>
-      <li>Réduction de 15%</li>
-      <li style="margin-bottom:47%;"></li>
-    </ul>
-    <div class="plan-select"><a href="">Choisir</a></div>
-  </div>
-</div>
-</div>
+  <script src="js/main.js"></script>
 </body>
 </html>
