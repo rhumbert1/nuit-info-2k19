@@ -1,4 +1,5 @@
 p{
+  margin-top: 80px;
   font-size: 18px;
   font-family: 'Open Sans';
   font-weight: bold;
@@ -174,7 +175,7 @@ transform: scaleX(-1);
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1405px) {
   .navbar a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -185,7 +186,7 @@ transform: scaleX(-1);
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1405px) {
   .navbar.responsive a.icon {
     position: absolute;
     right: 0;
@@ -205,7 +206,7 @@ transform: scaleX(-1);
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1405px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -213,7 +214,7 @@ transform: scaleX(-1);
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1405px) {
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
@@ -234,21 +235,6 @@ transform: scaleX(-1);
   }
   .navbar.responsive{
     overflow: visible;
-  }
-  .navbar.responsive #urgent:hover{
-    background-color: #d33333;
-  }
-  .navbar.responsive #entretenir{
-    margin-left: 0px;
-  }
-  .navbar.responsive #urgent{
-    margin-left: 0px;
-  }
-  .navbar.responsive #depanner{
-    margin-left: 0px;
-  }
-  .navbar.responsive #installer{
-    margin-left: 0px;
   }
 
 }
