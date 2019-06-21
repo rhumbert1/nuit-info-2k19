@@ -2,7 +2,6 @@ body, html {
   height: 100%;
 }
 
-
 #fond {
   position: fixed;
 
@@ -214,8 +213,6 @@ transform: scaleX(-1);
     overflow: visible;
     margin-left: 0px;
   }
-
-
 }
 
 #logo{
@@ -233,7 +230,6 @@ transform: scaleX(-1);
   color: #fff;
   z-index: 150;
 }
-
 #urgent:hover{
   background-color: #b30000;
 }

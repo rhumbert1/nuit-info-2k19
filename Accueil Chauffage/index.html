@@ -1,0 +1,219 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/accueil.css" media="all">
+  <link rel="stylesheet" type="text/css"href="css/util.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+
+  <div class="navbar" id="myNavbar">
+    <img src="images/logo MS.png" id="logo" alt="" onclick="openUrl()">
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Entretenir</button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="file:///C:/wamp64_1/www/Accueil Chauffage/index.html">Chauffage</a>
+        <a href="file:///C:/wamp64_1/www/Accueil Clim/index.html">Climatisation / Ventilation</a>
+        <a href="file:///C:/wamp64_1/www/Accueil Sanitaire/index.html">Sanitaire</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Dépanner</button>
+      <div class="dropdown-content">
+        <a href="file:///C:/wamp64_1/www/Accueil Chauffage/index.html">Chauffage</a>
+        <a href="file:///C:/wamp64_1/www/Accueil Clim/index.html">Climatisation / Ventilation</a>
+        <a href="file:///C:/wamp64_1/www/Accueil Sanitaire/index.html">Sanitaire</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Installer</button>
+      <div class="dropdown-content">
+        <a href="file:///C:/wamp64_1/www/Accueil Chauffage/index.html">Chauffage</a>
+        <a href="file:///C:/wamp64_1/www/Accueil Clim/index.html">Climatisation / Ventilation</a>
+        <a href="file:///C:/wamp64_1/www/Accueil Sanitaire/index.html">Sanitaire</a>
+      </div>
+    </div>
+    <a href="" id="urgent">Dépannage Urgent</a>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a>
+  </div>
+
+<div id="fond"><img src="images/chaudiere/fond3.jpg" alt=""></div>
+
+<div class="contenu">
+<div class="snip1404">
+<h2 class="titre-table"><div class="fond-titre-table accordion">Contrats Chaudière Gaz<i class="arrow down"></i></div></h2>
+  <div class="plan panel">
+      <h4 class="plan-title">
+        Contrat 1 an
+      </h4>
+      <div class="plan-cost"><span class="plan-price">188€</span><span class="plan-type">/an</span></div>
+    <ul class="plan-features">
+      <li>1 intervention/an</li>
+      <li style="margin-bottom:63%;"></li>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+  <div class="plan panel">
+    <h4 class="plan-title">
+      Contrat 5 ans
+    </h4>
+    <div class="plan-cost"><span class="plan-price">164€</span><span class="plan-type">/an</span></div>
+  <ul class="plan-features">
+    <li>1 intervention/an</li>
+    <li>Réduction de 15%</li>
+    <li style="margin-bottom:47%;"></li>
+  </ul>
+  <div class="plan-select"><a href="">Choisir</a></div>
+</div>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        contrat 10 ans
+      </h4>
+      <div class="plan-cost"><span class="plan-price">520€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+            <li>1 intervention/an</li>
+      <li>Réduction de 15%</li>
+      <li><div class="text-garantie">Garantie totale</div></li>
+      <li><div class="text-garantie">Remplacement gratuit en cas d'impossibilité de dépannage</div></li>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+</div>
+
+<div class="snip1404">
+  <h2 class="titre-table"><div class="fond-titre-table accordion">Contrats Chaudière Fioul<i class="arrow down"></i></div></h2>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        Contrat 1 an
+      </h4>
+      <div class="plan-cost"><span class="plan-price">225€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+      <li>1 intervention/an</li>
+      <li style="margin-bottom:63%;"></li>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+  <div class="plan panel">
+    <h4 class="plan-title">
+      Contrat 5 ans
+    </h4>
+    <div class="plan-cost"><span class="plan-price">196€</span><span class="plan-type">/an</span></div>
+  <ul class="plan-features">
+    <li>Réduction de 15%</li>
+    <li>1 intervention/an</li>
+    <li style="margin-bottom:47%;"></li>
+  </ul>
+  <div class="plan-select"><a href="">Choisir</a></div>
+</div>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        contrat 10 ans
+      </h4>
+      <div class="plan-cost"><span class="plan-price">552€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+      <li>Réduction de 15%</li>
+      <li>Garantie totale</li>
+      <div class="text-garantie"><li>1 intervention/an</li>
+        <li>Remplacement gratuit en cas d'impossibilité de dépannage</li></div>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+</div>
+
+<div class="snip1404">
+  <h2 class="titre-table"><div class="fond-titre-table accordion">Contrats Boiler<i class="arrow down"></i></div></h2>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        Contrat 1 an
+      </h4>
+      <div class="plan-cost"><span class="plan-price">38€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+      <li>1 intervention/an</li>
+      <li style="margin-bottom:63%;"></li>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+  <div class="plan panel">
+    <h4 class="plan-title">
+      Contrat 5 ans
+    </h4>
+    <div class="plan-cost"><span class="plan-price">33€</span><span class="plan-type">/an</span></div>
+  <ul class="plan-features">
+    <li>Réduction de 15%</li>
+    <li>1 intervention/an</li>
+    <li style="margin-bottom:47%;"></li>
+  </ul>
+  <div class="plan-select"><a href="">Choisir</a></div>
+</div>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        contrat 10 ans
+      </h4>
+      <div class="plan-cost"><span class="plan-price">186€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+      <li>Réduction de 15%</li>
+      <li>Garantie totale</li>
+      <div class="text-garantie"><li>1 intervention/an</li>
+      <li>Remplacement gratuit en cas d'impossibilité de dépannage</li></div>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+</div>
+
+<div class="snip1404">
+  <h2 class="titre-table"><div class="fond-titre-table accordion">Contrats Cheminée<i class="arrow down"></i></div></h2>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        Contrat 1 an
+      </h4>
+      <div class="plan-cost"><span class="plan-price">146€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+      <li>1 intervention/an</li>
+      <li style="margin-bottom:63%;"></li>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+  <div class="plan panel">
+    <h4 class="plan-title">
+      Contrat 5 ans
+    </h4>
+    <div class="plan-cost"><span class="plan-price">127€</span><span class="plan-type">/an</span></div>
+  <ul class="plan-features">
+    <li>1 intervention/an</li>
+    <li>Réduction de 15%</li>
+    <li style="margin-bottom:47%;"></li>
+  </ul>
+  <div class="plan-select"><a href="">Choisir</a></div>
+</div>
+  <div class="plan panel">
+    <header>
+      <h4 class="plan-title">
+        contrat 10 ans
+      </h4>
+      <div class="plan-cost"><span class="plan-price">127€</span><span class="plan-type">/an</span></div>
+    </header>
+    <ul class="plan-features">
+      <li>1 intervention/an</li>
+      <li>Réduction de 15%</li>
+      <li style="margin-bottom:47%;"></li>
+    </ul>
+    <div class="plan-select"><a href="">Choisir</a></div>
+  </div>
+</div>
+</div>
+  <script src="js/main.js"></script>
+</body>
+</html>

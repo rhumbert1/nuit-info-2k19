@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Devis en ligne | Mersch & Schmitz Sàrl</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/index.gif"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+
+<body>
+
+	<script>
+	function distance(lon1, lat1, lon2, lat2) {
+	var R = 6371; // Radius of the earth in km
+	var dLat = (lat2-lat1).toRad();  // Javascript functions in radians
+	var dLon = (lon2-lon1).toRad();
+	var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+					Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) *
+					Math.sin(dLon/2) * Math.sin(dLon/2);
+	var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+	var d = R * c; // Distance in km
+	var e = d + ((d / 100)*10);
+	return e;
+	}
+
+	/** Converts numeric degrees to radians */
+	if (typeof(Number.prototype.toRad) === "undefined") {
+	Number.prototype.toRad = function() {
+		return this * Math.PI / 180;
+	}
+	}
+
+	window.navigator.geolocation.getCurrentPosition(function(pos) {
+	console.log(
+		distance(pos.coords.longitude, pos.coords.latitude, 	5.982413, 49.621044)
+	);
+	});
+		</script>
+
+	<!--Chatbot-->
+<link href="https://fr.snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css"><script src="https://fr.snatchbot.me/sdk/webchat.min.js"></script><script> Init('?botID=58481&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Amk4GPc2q4N5Gzg545Sm7PMw0', 'bubble', '#FFFFFF', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', '#FF0000', 0);</script>
+
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<form class="contact3-form validate-form" method="post" action="info.php">
+					<span class="contact3-form-title">DEVIS EN LIGNE</span>
+
+					<div class="row">
+					<div class="wrap-input3 validate-input col-md-6" data-validate="Nom requis">
+						<input class="input3" type="text" name="name" placeholder="Nom*">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input col-md-6" data-validate="Nom requis">
+						<input class="input3" type="text" name="first_name" placeholder="Prénom*">
+						<span class="focus-input3"></span>
+					</div></div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Adresse mail valide requise: ex@abc.xyz">
+						<input class="input3" type="text" name="email" placeholder="Email*">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input">
+						<input class="input3" type="text" name="phone" placeholder="Téléphone*">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input">
+						<input class="input3 p-r-50" id="autocomplete" name="address" placeholder="Adresse*" onFocus="geolocate()" type="text">
+						<span class="focus-input3"></span>
+				 	</div>
+
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8Y2nKN1zT4hg7CiNRfb_xv8Wj4M8Gi6s&libraries=places&callback=initAutocomplete" async defer></script>
+
+				<p style="font-size:15px;color:#b3b3b3;text-align:center;">Les champs comportant une * doivent impérativement être complétés</p>
+
+					<div class="container-contact100-form-btn">
+						<div class="wrap-contact100-form-btn">
+							<div class="contact100-form-bgbtn"></div>
+							<button class="contact100-form-btn">
+								<span>
+									Envoyer
+									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
