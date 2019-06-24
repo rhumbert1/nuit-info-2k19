@@ -1,3 +1,21 @@
+// Reload Page Function //
+                function reloadPage() {
+                    var currentDocumentTimestamp = new Date(performance.timing.domLoading).getTime();
+                    // Current Time //
+                    var now = Date.now();
+                    // Total Process Lenght as Minutes //
+                    var tenSec = 1 * 1000;
+                    // End Time of Process //
+                    var plusTenSec = currentDocumentTimestamp + tenSec;
+                    if (now > plusTenSec) {
+                        location.reload();
+                    }
+                }
+
+
+                // You can call it in somewhere //
+                reloadPage();
+
 
 // This sample uses the Autocomplete widget to help the user select a
 // place, then it retrieves the address components associated with that
