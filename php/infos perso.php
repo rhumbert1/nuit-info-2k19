@@ -2,7 +2,7 @@
 <head><meta http-equiv="refresh" content="0.1; URL=https://rhumbert1.github.io/devis-ms/index.html"></head>
 <?php
 
-$host='127.0.0.1';
+$host='localhost';
 $username='root';
 $password='';
 $db_name='devisms';
