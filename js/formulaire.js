@@ -1,22 +1,15 @@
 // Reload Page Function //
-                function reloadPage() {
-                    var currentDocumentTimestamp = new Date(performance.timing.domLoading).getTime();
-                    // Current Time //
-                    var now = Date.now();
-                    // Total Process Lenght as Minutes //
-                    var tenSec = 1 * 1000;
-                    // End Time of Process //
-                    var plusTenSec = currentDocumentTimestamp + tenSec;
-                    if (now > plusTenSec) {
-                        location.reload();
-                    }
-                }
+$(document).ready(function(){
+    //Check if the current URL contains '#'
+    if(document.URL.indexOf("#")==-1){
+        // Set the URL to whatever it was plus "#".
+        url = document.URL+"#";
+        location = "#";
 
-
-                // You can call it in somewhere //
-                reloadPage();
-
-
+        //Reload the page
+        location.reload(true);
+    }
+});
 // This sample uses the Autocomplete widget to help the user select a
 // place, then it retrieves the address components associated with that
 // place, and then it populates the form fields with those details.
