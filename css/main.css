@@ -128,6 +128,8 @@ iframe {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .container-contact3 {
@@ -143,10 +145,6 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #ffffff;
-  background: -webkit-linear-gradient(rgba(242,242,242,1), rgba(128,128,128,0.8));
-  background: -o-linear-gradient(rgba(242,242,242,1), rgba(128,128,128,0.8));
-  background: -moz-linear-gradient(rgba(242,242,242,1), rgba(128,128,128,0.8));
-  background: linear-gradient(rgba(242,242,242,1), rgba(128,128,128,0.8));
 }
 
 .wrap-contact3 {
