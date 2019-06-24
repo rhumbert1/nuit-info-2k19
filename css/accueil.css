@@ -20,6 +20,13 @@ background-size: cover;
 transform: scaleX(-1);
 }
 
+.titre-table{
+  color: black;
+  width: 100%;
+  font-size: 40px;
+  font-family: 'Open Sans';
+}
+
 .contenu{
   z-index: 10;
   position: absolute;
