@@ -69,6 +69,7 @@ body, html {
 
 }
 #fond img {
+  height:100%;
   background-repeat: no-repeat;
 background-position: center center;
 -webkit-background-size: cover;
