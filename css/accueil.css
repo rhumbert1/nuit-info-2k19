@@ -20,13 +20,27 @@ background-size: cover;
 transform: scaleX(-1);
 }
 
+.first-titre-table{
+  color: black;
+  font-size: 40px;
+  font-family: 'Open Sans';
+  width: 100%;
+}
+
+.titre-table{
+  color: black;
+  width: 100%;
+  font-size: 40px;
+  font-family: 'Open Sans';
+}
+
 .contenu{
   z-index: 10;
   position: absolute;
 }
 
 .navbar {
-  overflow: visible;
+  overflow: hidden;
   background-color: #eee;
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
@@ -42,7 +56,7 @@ transform: scaleX(-1);
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 26px 40px;
+  padding: 30px 40px;
   text-decoration: none;
   color: #333;
   font-family: "Open Sans";
@@ -61,128 +75,15 @@ transform: scaleX(-1);
   display: none;
 }
 
-/* Dropdown container - needed to position the dropdown content */
-.dropdown {
-  float: left;
-  overflow: hidden;
-  margin-left: 10%;
-  margin-right: -5%;
-}
-
-/* Style the dropdown button to fit inside the topnav */
-.dropdown .dropbtn {
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 26px 40px;
-  text-decoration: none;
-  color: #333;
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: bold;
-  z-index: 30;
-  border: 0;
-  background-color: #eee;
-}
-
-.dropdown .dropbtn:hover{
-  background-color: #b30000;
-  color: #fff;
-}
-
-/* Style the dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #eee;
-  min-width: 160px;
-  z-index: 1;
-  top: 79px;
-}
-
-/* Style the links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.navbar .dropbtn{
-    overflow: visible;
-}
-
-/* Add a grey background to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #b30000;
-  color: #fff;
-}
-
-/* Show the dropdown menu on hover */
-//.dropdown:hover .dropdown-content {
-  display: inline;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:inline-block;}
-
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1405px) {
-  .navbar a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-
+@media screen and (max-width: 1200px) {
+  .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
     display: block;
   }
+}
 
-  .navbar.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .navbar.responsive .dropdown {
-    float: none;
-    width:100%;
-    margin-left: 0px;
-  }
-
-  .navbar.responsive .dropdown-content {
-    position: relative;
-    top: 0px;
-    background-color: #eee;
-  }
-
-  .navbar.responsive .dropdown-content a{
-    font-size: 18px;
-  }
-
-  .navbar.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-
-  .navbar a:not(:first-child) {
-    display: none;
-  }
-
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-
+@media screen and (max-width: 1200px) {
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
@@ -190,29 +91,36 @@ transform: scaleX(-1);
   }
   .navbar.responsive a {
     float: none;
-    margin-left: 5%;
     display: block;
     text-align: left;
     z-index: 150;
     background-color: #eee;
   }
   .navbar.responsive a:hover {
-    background-color: #b30000;
-    color: #fff;
+    background: #ccc;
   }
-
   .navbar.responsive #logo{
     display: none;
   }
-
+  .navbar.responsive{
+    overflow: visible;
+  }
+  .navbar.responsive #urgent:hover{
+    background-color: #d33333;
+  }
+  .navbar.responsive #entretenir{
+    margin-left: 0px;
+  }
   .navbar.responsive #urgent{
     margin-left: 0px;
   }
-
-  .navbar.responsive{
-    overflow: visible;
+  .navbar.responsive #depanner{
     margin-left: 0px;
   }
+  .navbar.responsive #installer{
+    margin-left: 0px;
+  }
+
 }
 
 #logo{
@@ -223,13 +131,174 @@ transform: scaleX(-1);
   float: left;
 }
 
+#entretenir{
+  margin-left: 8%;
+  z-index: 150;
+}
+
+#depanner{
+  margin-left: 4%;
+    z-index: 150;
+}
+
+#installer{
+  margin-left: 4%;
+    z-index: 150;
+}
+
 #urgent{
-  margin-left: 10%;
+  margin-left: 4%;
   margin-right: auto;
-  background-color: #ff5500;
+  background-color: #b30000;
   color: #fff;
   z-index: 150;
 }
-#urgent:hover{
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+.snip1404 {
+  font-family: 'Open Sans';
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  max-width: 1000px;
+  left: 20%;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: 7%;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+  display: flex;
+}
+.snip1404 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+.snip1404 .plan {
+  margin: 6px;
+  width: 25%;
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #730000;
+  box-shadow: 0px 0px 10px #000;
   background-color: #b30000;
+}
+.snip1404 .plan:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.snip1404 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.snip1404 header {
+  background-color: #b30000;
+  color: #ffffff;
+}
+.snip1404 .plan-title{
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+  margin: 0;
+  padding: 20px 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.snip1404 .plan-title:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 300px 0 0;
+  border-color: rgba(0,0,0,0.5) transparent transparent;
+}
+.snip1404 .plan-cost {
+  padding: 40px 20px 10px;
+  text-align: right;
+}
+.snip1404 .plan-price {
+  font-weight: 600;
+  font-size: 3em;
+}
+.snip1404 .plan-type {
+  opacity: 0.8;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+.snip1404 .plan-features {
+  padding: 0 0 20px;
+  margin-left: 10px;
+  list-style: outside none none;
+  text-align: center;
+}
+.snip1404 .plan-features li {
+  padding: 8px 5%;
+}
+.snip1404 .plan-features i {
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.snip1404 .plan-select {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+.snip1404 .plan-select a {
+  background-color: #700000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+}
+.snip1404 .plan-select a:hover {
+  background-color: #ff4d4d;
+}
+.text-garantie{
+  font-size:17px;
+  display: inline;
+  color: #fff;
+  font-weight: bold;
+ text-shadow: 0px 0px 7px #ddd;
+}
+
+@media only screen and (max-width: 767px) {
+  .snip1404 .plan {
+    width: 50%;
+  }
+  .snip1404 .plan-title,
+  .snip1404 .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .snip1404 .plan-select,
+  .snip1404 .plan-featured .plan-select {
+    padding: 20px;
+  }
+  .snip1404 .plan-featured {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .snip1404 .plan {
+    width: 100%;
+  }
+    .snip1404 .plan-non-featured {
+    width: 100%;
+  }
+    .snip1404 .plan-featured {
+    width: 100%;
+  }
 }
