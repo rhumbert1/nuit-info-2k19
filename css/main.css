@@ -128,8 +128,6 @@ iframe {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 .container-contact3 {
