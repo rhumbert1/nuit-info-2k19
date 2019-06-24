@@ -273,6 +273,22 @@ background-size: cover;
     overflow: visible;
     margin-left: 0px;
   }
+
+  #fond {
+    position: fixed;
+    overflow:hidden;
+  }
+  #fond img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    filter: opacity(60%);
+  }
 }
 
 #logo{
