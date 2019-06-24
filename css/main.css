@@ -142,7 +142,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: rgba(255,255,255,0.8);
+  background: #ffffff;
+  background: -webkit-linear-gradient(rgba(255,255,255,0.7));
+  background: -o-linear-gradient(rgba(255,255,255,0.7));
+  background: -moz-linear-gradient(rgba(255,255,255,0.7));
+  background: linear-gradient(rgba(255,255,255,0.7));
 }
 
 .wrap-contact3 {
