@@ -66,7 +66,7 @@ body, html {
 
 #fond {
   position: fixed;
-
+  overflow:hidden;
 }
 #fond img {
   height: 100%;
@@ -77,7 +77,6 @@ background-position: center center;
 -o-background-size: cover;
 background-size: cover;
   filter: opacity(60%);
-  overflow:hidden;
 }
 
 .contenu{
