@@ -1,5 +1,5 @@
 <html>
-<head><meta http-equiv="refresh" content="0.1; URL=http://localhost:8060/Formulaire%20Infos%20Perso/index.html"></head>
+<head><meta http-equiv="refresh" content="0.1; URL=https://rhumbert1.github.io/devis-ms/php/infos%20persos.php"></head>
 <?php
 
 $host='localhost';
