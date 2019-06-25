@@ -17,8 +17,8 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="https://rhumbert1.github.io/devis-ms/vendor/select2/select2.min.css">
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="https://rhumbert1.github.io/devis-ms/css/main.css">
-<link rel="stylesheet" type="text/css" href="https://rhumbert1.github.io/devis-ms/css/util.css">
+	<link rel="stylesheet" type="text/css" href="https://rhumbert1.github.io/devis-ms/css/main.css">
+	<link rel="stylesheet" type="text/css" href="https://rhumbert1.github.io/devis-ms/css/util.css">
 <!--===============================================================================================-->
 </head>
 
@@ -27,60 +27,65 @@
 	<!--Chatbot-->
 <link href="https://fr.snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css"><script src="https://fr.snatchbot.me/sdk/webchat.min.js"></script><script> Init('?botID=58481&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/Amk4GPc2q4N5Gzg545Sm7PMw0', 'bubble', '#FFFFFF', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', '#FF0000', 0);</script>
 
-
-		<div class="container-contact3">
+	<div class="bg-contact3" style="background-image: url('https://rhumbert1.github.io/devis-ms/images/chaudiere/fond3.jpg');">
+	<div class="container-contact3">
 	<div class="wrap-contact3">
-		<form class="contact3-form validate-form" method="post" action="https://remi-humbert.000webhostapp.com/clim.php">
+		<form class="contact3-form validate-form" method="post" action="https://remi-humbert.000webhostapp.com/chauffage.php">
 			<span class="contact3-form-title">
-				Devis en ligne<br>CLIMATISATION
+				Devis en ligne<br>Cave à vin
 			</span>
 
-			<p style="font-size:15px;color:#b3b3b3;text-align:left;">TYPE D'INSTALLATION*</p><br>
+			<p style="font-size:15px;color:#b3b3b3;text-align:left;">DUREE DU CONTRAT ET TYPE*</p><br>
 			<div class="wrap-contact3-form-radio">
-				<div class="contact3-form-radio m-l-40 m-b-10 m-r-10">
-					<input class="input-radio3" id="radio3" type="radio" name="install_type" value="Cave à vin">
-					<label class="label-radio3" for="radio3">
-						Cave à vin
+				<div class="contact3-form-radio m-l-50 m-b-10 m-r-35">
+					<input class="input-radio3" id="radio9" type="radio" name="duree" value="1 an" checked>
+					<label class="label-radio3" for="radio9">
+						1 an
 					</label>
 				</div>
 
-				<div class="contact3-form-radio m-l-40 m-b-10">
-					<input class="input-radio3" id="radio4" type="radio" name="install_type" value="Split">
-					<label class="label-radio3" for="radio4">
-						Split
+				<div class="contact3-form-radio m-l-50 m-b-10 m-r-60">
+					<input class="input-radio3" id="radio1" type="radio" name="type" value="Cave à vin" checked>
+					<label class="label-radio3" for="radio1">
+						Cave à vin
 					</label>
 				</div>
 			</div>
 
-				<p style="font-size:15px;color:#b3b3b3;text-align:left;">TYPE DE GAZ</p><br>
-				<div class="wrap-contact3-form-radio">
-					<div class="contact3-form-radio m-l-40 m-b-10 m-r-68">
-						<input class="input-radio3" id="radio1" type="radio" name="type" value="R412">
-						<label class="label-radio3" for="radio1">
-							R412
-						</label>
-					</div>
-
-					<div class="contact3-form-radio m-l-40 m-b-10">
-						<input class="input-radio3" id="radio2" type="radio" name="type" value="R132">
-						<label class="label-radio3" for="radio2">
-							R132
-						</label>
-					</div>
+			<p style="font-size:15px;color:#b3b3b3;text-align:left;">TYPE DE GAZ</p><br>
+			<div class="wrap-contact3-form-radio">
+				<div class="contact3-form-radio m-l-50 m-b-10 m-r-35">
+					<input class="input-radio3" id="radio1" type="radio" name="install_type" value="R412">
+					<label class="label-radio3" for="radio1">
+						R412
+					</label>
 				</div>
 
-				<div class="wrap-input3 validate-input">
-					<input class="input3" type="text" name="debit" placeholder="Débit en m3/h">
-					<span class="focus-input3"></span>
+				<div class="contact3-form-radio m-l-50 m-b-10">
+					<input class="input-radio3" id="radio2" type="radio" name="install_type" value="R132">
+					<label class="label-radio3" for="radio2">
+						R132
+					</label>
 				</div>
+			</div>
+
+			<div class="wrap-input3 validate-input">
+				<input class="input3" type="text" name="debit" placeholder="Débit en m3/h">
+				<span class="focus-input3"></span>
+			</div>
+
+			<div class="wrap-input3 validate-input">
+				<input class="input3" type="text" name="marque" placeholder="Marque">
+				<span class="focus-input3"></span>
+			</div>
+
+			<div class="wrap-input3 validate-input">
+				<input class="input3" type="text" name="annee" placeholder="Année*">
+				<span class="focus-input3"></span>
+			</div>
 
 				<div class="wrap-input3 validate-input">
-					<input class="input3" type="text" name="marque" placeholder="Marque">
-					<span class="focus-input3"></span>
-				</div>
-
-				<div class="wrap-input3 validate-input">
-					<input class="input3" type="text" name="annee" placeholder="Année*">
+					<input class="input3" type="number" name="nbr" placeholder="Nombre*" min="1">
 					<span class="focus-input3"></span>
 				</div>
 
@@ -96,12 +101,12 @@
 						</span>
 					</button>
 				</div>
-
 			</div>
 		</form>
 	</div>
 </div>
 </div>
+
 
 
 	<div id="dropDownSelect1"></div>
