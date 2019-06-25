@@ -8,10 +8,12 @@ $password='';
 $db_name='devisms';
 $table='infos_ventil';
 
+$duree=$_POST['duree'];
 $type=$_POST['type'];
 $debit=$_POST['debit'];
 $marque=$_POST['marque'];
 $annee=$_POST['annee'];
+$nbr=$_POST['nbr'];
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
@@ -23,8 +25,8 @@ if (!$connection)
 
 mysqli_select_db($connection, $db_name);
 
-$test=mysqli_query($connection, "INSERT INTO $table (type, debit, marque, annee)
-VALUES ('$type', '$debit', '$marque', '$annee')");
+$test=mysqli_query($connection, "INSERT INTO $table (duree, type, debit, marque, annee, nbr)
+VALUES ('$duree', '$type', '$debit', '$marque', '$annee', '$nbr')");
 
 mysqli_close($connection);
 

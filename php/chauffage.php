@@ -8,6 +8,7 @@ $password='';
 $db_name='devisms';
 $table='infos_chaudiere';
 
+$duree=$_POST['duree'];
 $type=$_POST['type'];
 $install_type=$_POST['install_type'];
 $puissance=$_POST['puissance'];
@@ -25,8 +26,8 @@ if (!$connection)
 
 mysqli_select_db($connection, $db_name);
 
-$test=mysqli_query($connection, "INSERT INTO $table (type, install_type, puissance, marque, annee, nbr)
-VALUES ('$type', '$install_type', '$puissance', '$marque', '$annee', '$nbr')");
+$test=mysqli_query($connection, "INSERT INTO $table (duree, type, install_type, puissance, marque, annee, nbr)
+VALUES ('$duree', '$type', '$install_type', '$puissance', '$marque', '$annee', '$nbr')");
 
 mysqli_close($connection);
 
