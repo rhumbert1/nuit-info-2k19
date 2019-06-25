@@ -16,6 +16,11 @@
           animation: fadein 4s;
 }
 
+.tel{
+  font-size: 3em;
+  font-weight: 400;
+}
+
 i {
   margin-left: 10px;
   margin-bottom: 5px;
