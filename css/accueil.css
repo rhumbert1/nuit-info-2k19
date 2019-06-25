@@ -16,6 +16,12 @@
           animation: fadein 4s;
 }
 
+p{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
 .tel{
   font-size: 3em;
   font-weight: 400;
