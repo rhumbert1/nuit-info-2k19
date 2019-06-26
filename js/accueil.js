@@ -14,7 +14,23 @@ for (i = 0; i < acc.length; i++) {
 }*/
 
 $('.titre-table').click(function(){
-  $(this).siblings('.plan').slideToggle();
+  $(this).siblings('.plan').slideToggle("slow");
+})
+
+$('.table1').click(function(){
+  $('.arrow1').toggleClass("rotate");
+})
+
+$('.table2').click(function(){
+  $('.arrow2').toggleClass("rotate");
+})
+
+$('.table3').click(function(){
+  $('.arrow3').toggleClass("rotate");
+})
+
+$('.table4').click(function(){
+  $('.arrow4').toggleClass("rotate");
 })
 
 function responsiveNavbar() {

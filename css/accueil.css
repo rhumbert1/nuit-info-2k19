@@ -9,14 +9,25 @@
 
 .fond-titre-table{
   background-color: rgba(238,238,238,0.8);
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 4s; /* Firefox < 16 */
-      -ms-animation: fadein 4s; /* Internet Explorer */
-       -o-animation: fadein 4s; /* Opera < 12.1 */
-          animation: fadein 4s;
 }
 
 .table1{
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+
+.table2{
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 3s; /* Firefox < 16 */
+      -ms-animation: fadein 3s; /* Internet Explorer */
+       -o-animation: fadein 3s; /* Opera < 12.1 */
+          animation: fadein 3s;
+}
+
+.table3{
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 4s; /* Firefox < 16 */
       -ms-animation: fadein 4s; /* Internet Explorer */
@@ -24,74 +35,149 @@
           animation: fadein 4s;
 }
 
-.table2{
-  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 8s; /* Firefox < 16 */
-      -ms-animation: fadein 8s; /* Internet Explorer */
-       -o-animation: fadein 8s; /* Opera < 12.1 */
-          animation: fadein 8s;
+.table4{
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 5s; /* Firefox < 16 */
+      -ms-animation: fadein 5s; /* Internet Explorer */
+       -o-animation: fadein 5s; /* Opera < 12.1 */
+          animation: fadein 5s;
 }
 
-.table3{
-  -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 12s; /* Firefox < 16 */
-      -ms-animation: fadein 12s; /* Internet Explorer */
-       -o-animation: fadein 12s; /* Opera < 12.1 */
-          animation: fadein 12s;
-}
-
-i {
+.arrow1 {
   margin-left: 10px;
   margin-bottom: 5px;
   border: solid black;
   border-width: 0 8px 8px 0;
   display: inline-block;
   padding: 8px;
-}
-
-.down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
+.arrow2 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: solid black;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow3 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: solid black;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow4 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: solid black;
+  border-width: 0 8px 8px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.rotate{
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from
+    {
+      opacity: 0;
+      transform: scaleY(0.98) translateY(30px);
+    }
+  to
+  {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from
+    {
+      opacity: 0;
+      transform: scaleY(0.98) translateY(30px);
+    }
+  to
+  {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from
+    {
+      opacity: 0;
+      transform: scaleY(0.98) translateY(30px);
+    }
+  to
+  {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from
+    {
+      opacity: 0;
+      transform: scaleY(0.98) translateY(30px);
+    }
+  to
+  {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from
+    {
+      opacity: 0;
+      transform: scaleY(0.98) translateY(10px);
+    }
+  to
+  {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 body, html {
   height: 100%;
 }
 
-
 #fond {
   position: fixed;
   overflow:hidden;
 }
+
 #fond img {
   width: 100%;
   height: 100%;
@@ -182,6 +268,11 @@ background-size: cover;
   min-width: 160px;
   z-index: 1;
   top: 79px;
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 0.5s; /* Firefox < 16 */
+      -ms-animation: fadein 0.5s; /* Internet Explorer */
+       -o-animation: fadein 0.5s; /* Opera < 12.1 */
+          animation: fadein 0.5s;
 }
 
 /* Style the links inside the dropdown */
