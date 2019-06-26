@@ -16,6 +16,30 @@
           animation: fadein 4s;
 }
 
+.table1{
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 4s; /* Firefox < 16 */
+      -ms-animation: fadein 4s; /* Internet Explorer */
+       -o-animation: fadein 4s; /* Opera < 12.1 */
+          animation: fadein 4s;
+}
+
+.table2{
+  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 8s; /* Firefox < 16 */
+      -ms-animation: fadein 8s; /* Internet Explorer */
+       -o-animation: fadein 8s; /* Opera < 12.1 */
+          animation: fadein 8s;
+}
+
+.table3{
+  -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 12s; /* Firefox < 16 */
+      -ms-animation: fadein 12s; /* Internet Explorer */
+       -o-animation: fadein 12s; /* Opera < 12.1 */
+          animation: fadein 12s;
+}
+
 i {
   margin-left: 10px;
   margin-bottom: 5px;
