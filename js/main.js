@@ -1,6 +1,3 @@
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
 
 function responsiveNavbar() {
   var x = document.getElementById("myNavbar");
@@ -44,7 +41,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 20000); // Change image every 8 seconds
+    setTimeout(showSlides, 15000); // Change image every 15 seconds
 }
 
 function plusSlides(position) {
