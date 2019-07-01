@@ -61,6 +61,7 @@
 .dropdown .dropbtn:hover{
   background-color: #b30000;
   color: #fff;
+  cursor: pointer;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -214,6 +215,10 @@
   width: 110px;
   margin-left: 10%;
   float: left;
+}
+
+#logo:hover{
+  cursor: pointer;
 }
 
 #urgent{
