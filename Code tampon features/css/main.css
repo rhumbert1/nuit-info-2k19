@@ -1,4 +1,167 @@
+/* Fading animation */
+.fade1 {
+	-webkit-animation-name: fade1;
+	-webkit-animation-duration: 20s;
+  -webkit-animation-timing-function: cubic-bezier(0,1,1,0);
+	animation-name: fade1;
+	animation-duration: 20s;
+  animation-timing-function:linear;
+}
 
+.fade2 {
+  -webkit-animation-name: fade2;
+	-webkit-animation-duration: 20s;
+  -webkit-animation-timing-function: cubic-bezier(0,1,1,0);
+	animation-name: fade2;
+	animation-duration: 20s;
+  animation-timing-function: cubic-bezier(0,1,1,0);
+}
+
+@keyframes fade1 {
+  from
+    {
+
+      transform: translateX(100%);
+    }
+  to
+  {
+
+      transform: translateX(-100%);
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fade1 {
+  from
+    {
+
+      transform: translateX(50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fade1 {
+  from
+    {
+
+      transform: translateX(100%);
+    }
+  50%
+    {
+      transform: none;
+    }
+  to
+  {
+
+      transform: translateX(-100%);
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fade1 {
+  from
+    {
+
+      transform: translateX(-500%);
+    }
+  50%
+    {
+      transform: none;
+    }
+  to
+  {
+
+      transform: translateX(50%);
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fade1 {
+  from
+    {
+
+      transform: translateX(50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
+
+@keyframes fade2 {
+  from
+    {
+
+      transform: translateX(-50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fade2 {
+  from
+    {
+
+      transform: translateX(50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fade2 {
+  from
+    {
+
+      transform: translateX(50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fade2 {
+  from
+    {
+
+      transform: translateX(50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fade2 {
+  from
+    {
+
+      transform: translateX(50%);
+    }
+  to
+  {
+
+    transform: none;
+  }
+}
 
 
 
