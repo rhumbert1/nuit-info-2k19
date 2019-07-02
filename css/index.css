@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.fondSlide{
+  width: 100%;
+}
+
 #slide{
 	width:80%;
   position: fixed;
@@ -399,12 +403,25 @@ background-size: cover;
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:inline-block;}
 
+@media screen and (max-width: 600px){
+  .text{
+    font-size: 10px;
+  }
+}
 
 /* When the screen is less than 1400 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1400px) {
 
+  .fondSlide{
+    height: 100%;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
   #slide{
   	width:80%;
+    height: 80%;
     position: fixed;
     top: 60%;
     left: 50%;
@@ -413,12 +430,13 @@ background-size: cover;
 
     .slideshow-container{
       width: 100%;
-      height: 80%;
+      height: 90%;
     }
 
     .text{
-      font-size: 10px;
+      font-size: 15px;
       padding: 3% 8%;
+      height: 60%;
     }
 
     .btn{
@@ -427,6 +445,7 @@ background-size: cover;
 
     .mySlides{
       transform: scale(1);
+      height: 100%;
     }
 
   .navbar a:not(:first-child), .dropdown .dropbtn {
