@@ -407,6 +407,28 @@ background-size: cover;
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1405px) {
+
+  #slide{
+  	width:80%;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  	}
+
+    .text{
+      font-size: 10px;
+      padding: 3% 8%;
+    }
+
+    .btn{
+      transform: scale(0.5);
+    }
+
+    .mySlides{
+      transform: scale(1);
+    }
+
   .navbar a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
