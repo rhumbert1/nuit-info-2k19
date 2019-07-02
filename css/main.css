@@ -522,7 +522,24 @@ textarea.input3 {
   transition: all 1s;
 }
 
-.contact100-form-btn {
+.contact100-form-btn1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #404040;
+  line-height: 1.2;
+}
+
+.contact100-form-btn2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -543,18 +560,32 @@ textarea.input3 {
   left: 0;
 }
 
-.contact100-form-btn i {
+.contact100-form-btn1 i {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-.contact100-form-btn:hover i {
+.contact100-form-btn1:hover i {
   -webkit-transform: translateX(10px);
   -moz-transform: translateX(10px);
   -ms-transform: translateX(10px);
   -o-transform: translateX(10px);
   transform: translateX(10px);
+}
+
+.contact100-form-btn2 i {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.contact100-form-btn2:hover i {
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+  transform: translateX(-10px);
 }
 
 /*------------------------------------------------------------------
