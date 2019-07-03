@@ -1,4 +1,3 @@
-
 function responsiveNavbar() {
   var x = document.getElementById("myNavbar");
   if (x.className === "navbar") {
@@ -22,6 +21,7 @@ $('.dropbtn').click(function () {
       $(this).next('.dropdown-content').toggle()
     }
 })
+
 
 var slideIndex = 0;
 showSlides();

@@ -23,6 +23,7 @@ $('.dropbtn').click(function () {
 })
 
 
+
 // Reload Page Function //
 $(document).ready(function(){
     //Check if the current URL contains '#'
