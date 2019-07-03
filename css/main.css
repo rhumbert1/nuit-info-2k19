@@ -305,28 +305,6 @@ body, html {
 }
 
 /*---------------------------------------------*/
-a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #57b846;
-}
-
-/*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
@@ -400,6 +378,7 @@ iframe {
 }
 
 .container-contact3 {
+  margin-top: 10%;
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
