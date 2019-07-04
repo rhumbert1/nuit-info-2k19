@@ -1,12 +1,4 @@
-.chatbot{
-  position: fixed;
-  top: 15%;
-  left: 5%;
-  height: 80%;
-  width: 90%;
-  border: none;
-}
-
+/* table title styling */
 .titre-table{
   color: #000;
   width: 100%;
@@ -20,6 +12,7 @@
   background-color: rgba(238,238,238,0.8);
 }
 
+/* delayed animation for each table */
 .table1{
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -52,6 +45,7 @@
           animation: fadein 5s;
 }
 
+/* styling for each arrow, it goes upside down on click */
 .arrow1 {
   margin-left: 10px;
   margin-bottom: 5px;
@@ -96,6 +90,7 @@
   -webkit-transform: rotate(45deg);
 }
 
+/* animation for the arrows next each title */
 .rotate{
     -moz-transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
@@ -438,7 +433,7 @@ background-size: cover;
   background-color: #b30000;
 }
 
-
+/* styling for the pricing tables */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 .snip1404 {
   position: relative;
@@ -573,6 +568,7 @@ background-size: cover;
     margin-top: 0;
   }
 }
+
 @media only screen and (max-width: 440px) {
   .snip1404 .plan {
     width: 100%;
