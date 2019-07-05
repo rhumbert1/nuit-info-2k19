@@ -1,3 +1,11 @@
+.scrb{
+  font-family: 'Open Sans';
+  font-size: 22px;
+  margin-left: 10%;
+  width: 75%;
+  position: relative;
+}
+
 /* table title styling */
 .titre-table{
   color: #000;
@@ -9,6 +17,7 @@
 }
 
 .fond-titre-table{
+  max-width: 40%;
   background-color: rgba(238,238,238,0.8);
 }
 
@@ -192,11 +201,6 @@ background-position: center center;
 -o-background-size: cover;
 background-size: cover;
   filter: opacity(60%);
-}
-
-.contenu{
-  z-index: 10;
-  position: absolute;
 }
 
 .navbar {

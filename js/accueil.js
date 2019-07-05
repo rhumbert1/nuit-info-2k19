@@ -13,7 +13,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }*/
 
-$('.titre-table').click(function(){
+$('.fond-titre-table').click(function(){
   $(this).siblings('.plan').slideToggle("slow");
 })
 
