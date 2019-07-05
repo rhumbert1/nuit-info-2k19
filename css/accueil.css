@@ -9,6 +9,11 @@ body{
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 .presentation{
@@ -17,6 +22,12 @@ body{
   top: 20%;
   font-size: 24px;
   margin-bottom: 15%;
+  font-weight: 600;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 .scrb{
@@ -24,6 +35,21 @@ body{
   left: 10%;
   width: 75%;
   position: relative;
+  -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 6s; /* Firefox < 16 */
+      -ms-animation: fadein 6s; /* Internet Explorer */
+       -o-animation: fadein 6s; /* Opera < 12.1 */
+          animation: fadein 6s;
+}
+
+a:link{
+  color: #b30000;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #b30000;
+  text-decoration: none;
 }
 
 /* table title styling */
@@ -34,6 +60,7 @@ body{
   font-size: 34px;
   font-family: 'Open Sans';
   z-index: 1;
+  text-decoration: underline;
 }
 
 //.fond-titre-table{
@@ -458,7 +485,7 @@ background-size: cover;
 }
 
 /* styling for the pricing tables */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700);
 .snip1404 {
   position: relative;
   font-family: 'Open Sans';
