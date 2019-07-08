@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);
+
 .navbar {
   overflow: visible;
   background-color: #eee;
@@ -18,7 +20,7 @@
   padding: 26px 40px;
   text-decoration: none;
   color: #333;
-  font-family: "Open Sans";
+  font-family: 'Montserrat';
   font-size: 20px;
   font-weight: bold;
   z-index: 30;
@@ -51,7 +53,7 @@
   padding: 26px 40px;
   text-decoration: none;
   color: #333;
-  font-family: "Open Sans";
+  font-family: 'Montserrat';
   font-size: 20px;
   font-weight: bold;
   z-index: 30;
@@ -240,31 +242,13 @@
 }
 
 
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf');
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf');
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf');
-}
-
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: 'Montserrat';
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -354,7 +338,8 @@ textarea:-ms-input-placeholder { color: rgba(255,255,255,0.8);}
 
 .contact3-form-title {
   display: block;
-  font-family: Poppins-Bold;
+  font-family: 'Montserrat';
+  font-weight: 700;
   font-size: 39px;
   color: #fff;
   line-height: 1.2;
@@ -379,7 +364,7 @@ textarea:-ms-input-placeholder { color: rgba(255,255,255,0.8);}
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Poppins-Regular;
+  font-family: 'Montserrat';
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
@@ -488,7 +473,7 @@ textarea.input3 {
   padding: 0 20px;
   width: 100%;
   height: 50px;
-  font-family: Poppins-Medium;
+  font-family: 'Montserrat';
   font-size: 16px;
   color: #404040;
   line-height: 1.2;
@@ -505,7 +490,7 @@ textarea.input3 {
   padding: 0 20px;
   width: 100%;
   height: 50px;
-  font-family: Poppins-Medium;
+  font-family: 'Montserrat';
   font-size: 16px;
   color: #404040;
   line-height: 1.2;
@@ -578,7 +563,7 @@ textarea.input3 {
   right: 0px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: 'Montserrat';
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -643,7 +628,7 @@ textarea.input3 {
   position: relative;
   padding-left: 28px;
   cursor: pointer;
-  font-family: Poppins-Medium;
+  font-family: 'Montserrat';
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
@@ -728,7 +713,7 @@ textarea.input3 {
 
 /* in select */
 .select2-container .select2-selection--single .select2-selection__rendered {
-  font-family: Poppins-Regular;
+  font-family: 'Montserrat';
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
@@ -807,7 +792,7 @@ textarea.input3 {
 }
 
 .select2-results__options {
-  font-family: Poppins-Regular;
+  font-family: 'Montserrat';
   font-size: 15px;
   color: #555555;
   line-height: 1.2;
@@ -816,7 +801,7 @@ textarea.input3 {
 .select2-search--dropdown .select2-search__field {
   border: 1px solid #aaa;
   outline: none;
-  font-family: Poppins-Regular;
+  font-family: 'Montserrat';
   font-size: 15px;
   color: #555555;
   line-height: 1.2;

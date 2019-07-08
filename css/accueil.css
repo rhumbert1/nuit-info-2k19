@@ -1,5 +1,5 @@
 body{
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 .titre{
@@ -313,7 +313,7 @@ background-size: cover;
 .dropdown .dropbtn:hover{
   background-color: #b30000;
   color: #fff;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -485,10 +485,10 @@ background-size: cover;
 }
 
 /* styling for the pricing tables */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);
 .snip1404 {
   position: relative;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   color: #ffffff;
   text-align: left;
   font-size: 16px;
