@@ -450,7 +450,7 @@ background-size: cover;
     overflow:hidden;
   }
   #fond img {
-    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
