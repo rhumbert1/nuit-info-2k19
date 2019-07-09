@@ -296,8 +296,7 @@ background-size: cover;
 .dropdown {
   float: left;
   overflow: hidden;
-  margin-left: 10%;
-  margin-right: 0%;
+  margin-left: 7%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -425,6 +424,7 @@ background-size: cover;
     right: 0;
     bottom:0;
   }
+
   .navbar.responsive a {
     float: none;
     margin-left: 5%;
@@ -433,6 +433,7 @@ background-size: cover;
     z-index: 150;
     background-color: #eee;
   }
+
   .navbar.responsive a:hover {
     background-color: #b30000;
     color: #fff;
@@ -459,6 +460,7 @@ background-size: cover;
     position: fixed;
     overflow:hidden;
   }
+
   #fond img {
     height: 100%;
     background-repeat: no-repeat;
