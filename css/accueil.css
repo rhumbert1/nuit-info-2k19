@@ -297,7 +297,7 @@ background-size: cover;
   float: left;
   overflow: hidden;
   margin-left: 10%;
-  margin-right: -5%;
+  margin-right: 5%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
