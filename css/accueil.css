@@ -296,7 +296,7 @@ background-size: cover;
 .dropdown {
   float: left;
   overflow: hidden;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
