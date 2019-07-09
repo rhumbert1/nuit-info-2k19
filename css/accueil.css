@@ -2,6 +2,12 @@ body{
   font-family: 'Montserrat';
 }
 
+.commonninja_component{
+  position: relative;
+  top: 15%;
+  padding: 20px;
+}
+
 .titre{
   position: relative;
   font-size: 40px;
@@ -440,6 +446,10 @@ background-size: cover;
     margin-left: 0px;
   }
 
+  .navbar.responsive #residence{
+    margin-left: 0px;
+  }
+
   .navbar.responsive{
     overflow: visible;
     margin-left: 0px;
@@ -481,6 +491,17 @@ background-size: cover;
   z-index: 150;
 }
 #urgent:hover{
+  background-color: #b30000;
+}
+
+#residence{
+  margin-left: 10%;
+  margin-right: auto;
+  background-color: #eee;
+  color: #fff;
+  z-index: 150;
+}
+#residence:hover{
   background-color: #b30000;
 }
 
