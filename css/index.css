@@ -194,8 +194,7 @@ background-size: cover;/* cover the whole page */
 .dropdown {
   float: left;
   overflow: hidden;/* hidden by default so it doesn't show the links below */
-  margin-left: 10%;
-  margin-right: -5%;
+  margin-left: 5%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
