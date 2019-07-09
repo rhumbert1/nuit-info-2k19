@@ -483,24 +483,13 @@ background-size: cover;
 }
 
 #urgent{
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: auto;
   background-color: #ff5500;
   color: #fff;
   z-index: 150;
 }
 #urgent:hover{
-  background-color: #b30000;
-}
-
-#residence{
-  margin-left: 10%;
-  margin-right: auto;
-  background-color: #eee;
-  color: #fff;
-  z-index: 150;
-}
-#residence:hover{
   background-color: #b30000;
 }
 
