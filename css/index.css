@@ -420,12 +420,12 @@ background-size: cover;/* cover the whole page */
 
 /* far right button, background is colored in orange for better UX */
 #urgent{
-  margin-left: 10%;
-  margin-right: auto;
+  margin-left: 5%;
   background-color: #ff5500;
   color: #fff;
   z-index: 150;
 }
+
 #urgent:hover{
   background-color: #b30000;
 }
