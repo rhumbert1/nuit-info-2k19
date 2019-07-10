@@ -27,7 +27,6 @@ body{
   text-align: center;
   top: 20%;
   font-size: 24px;
-  margin-bottom: 15%;
   font-weight: 600;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
