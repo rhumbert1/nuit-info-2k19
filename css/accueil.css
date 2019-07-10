@@ -5,6 +5,7 @@ body{
 .commonninja_component{
   position: relative;
   padding: 20px;
+  margin-top: -5%;
 }
 
 .titre{
