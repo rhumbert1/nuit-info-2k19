@@ -301,7 +301,6 @@ textarea:-ms-input-placeholder { color: rgba(255,255,255,0.8);}
 
 .container-contact3 {
   z-index: 5;
-  margin-top: 10%;
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
