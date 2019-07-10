@@ -230,7 +230,7 @@ background-size: cover;/* covers the whole page */
   top: 0; /* Position the navbar at the top left of the page */
   left: 0;
   width: 100%; /* Full width */
-  height: 80px;
+  height: 79px;
   z-index: 20;
 }
 
