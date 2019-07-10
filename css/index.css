@@ -230,7 +230,7 @@ background-size: cover;/* covers the whole page */
   top: 0; /* Position the navbar at the top left of the page */
   left: 0;
   width: 100%; /* Full width */
-  height: 79px;
+  height: 77px;
   z-index: 20;
 }
 
@@ -295,7 +295,7 @@ background-size: cover;/* covers the whole page */
   background-color: #eee;
   min-width: 160px;
   z-index: 1;
-  top: 79px;
+  top: 76px;
   /* animation when appearing */
   -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 0.5s; /* Firefox < 16 */
