@@ -9,8 +9,8 @@ $db_name='devisms';
 $table='infos_clim';
 
 $duree=$_POST['duree'];
-$install_type=$_POST['install_type']
 $type=$_POST['type'];
+$install_type=$_POST['install_type']
 $debit=$_POST['debit'];
 $marque=$_POST['marque'];
 $annee=$_POST['annee'];
@@ -26,7 +26,7 @@ if (!$connection)
 
 mysqli_select_db($connection, $db_name);
 
-$test=mysqli_query($connection, "INSERT INTO $table (duree, install_type, type, debit, marque, annee, nbr)
+$test=mysqli_query($connection, "INSERT INTO $table (duree, type, install_type, debit, marque, annee, nbr)
 VALUES ('$duree', '$install_type', '$type', '$debit', '$marque', '$annee', '$nbr')");
 
 mysqli_close($connection);
