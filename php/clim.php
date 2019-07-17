@@ -10,7 +10,7 @@ $table='infos_clim';
 
 $duree=$_POST['duree'];
 $type=$_POST['type'];
-$install_type=$_POST['install_type']
+$install_type=$_POST['install_type'];
 $debit=$_POST['debit'];
 $marque=$_POST['marque'];
 $annee=$_POST['annee'];
