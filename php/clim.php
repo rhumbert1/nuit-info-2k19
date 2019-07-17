@@ -27,7 +27,7 @@ if (!$connection)
 mysqli_select_db($connection, $db_name);
 
 $test=mysqli_query($connection, "INSERT INTO $table (duree, type, install_type, debit, marque, annee, nbr)
-VALUES ('$duree', '$install_type', '$type', '$debit', '$marque', '$annee', '$nbr')");
+VALUES ('$duree', '$type', '$install_type', '$debit', '$marque', '$annee', '$nbr')");
 
 mysqli_close($connection);
 
