@@ -357,7 +357,6 @@ textarea:-ms-input-placeholder { color: rgba(255,255,255,0.8);}
   position: relative;
   border-bottom: 2px solid rgba(255,255,255,0.24);
   margin-bottom: 27px;
-  border: none;
 }
 
 .input3 {
