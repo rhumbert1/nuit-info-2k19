@@ -106,13 +106,6 @@
 .active, .dot:hover {
 	background-color: #b30000;
 }
-/* Fading animation */
-.fadein {
-  -webkit-animation-name: fadein;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fadein;
-  animation-duration: 1.5s;
-}
 
 /* Fading animation */
 .fade {
