@@ -352,16 +352,13 @@ textarea:-ms-input-placeholder { color: rgba(255,255,255,0.8);}
 /*------------------------------------------------------------------
 [  ]*/
 
-.form-control{
-  border: none;
-}
-
 .wrap-input3 {
   width: 100%;
   position: relative;
   border-bottom: 2px solid rgba(255,255,255,0.24);
   margin-bottom: 27px;
   color: #fff;
+    border: none;
 }
 
 .input3 {
