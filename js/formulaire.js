@@ -111,8 +111,8 @@ function fillInAddress() {
   });
   placesAutocomplete.on('change', function resultSelected(e) {
     document.querySelector('#form-address2').value = e.suggestion.administrative || '';
-    document.querySelector('#form-address').value = e.suggestion.city || '';
-    document.querySelector('#form-address').value = e.suggestion.postcode || '';
+    document.querySelector('#form-city').value = e.suggestion.city || '';
+    document.querySelector('#form-zip').value = e.suggestion.postcode || '';
   });
 })();
 
