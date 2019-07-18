@@ -103,7 +103,7 @@ function fillInAddress() {
     container: document.querySelector('#form-address'),
     templates: {
       value: function(suggestion) {
-        return suggestion.name;
+        return suggestion.value;
       }
     }
   }).configure({
