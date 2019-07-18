@@ -16,11 +16,11 @@ body{
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
-  -webkit-animation: fade 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 2s; /* Firefox < 16 */
-      -ms-animation: fade 2s; /* Internet Explorer */
-       -o-animation: fade 2s; /* Opera < 12.1 */
-          animation: fade 2s;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 .presentation{
@@ -30,11 +30,11 @@ body{
   font-size: 24px;
   margin-bottom: 15%;
   font-weight: 600;
-  -webkit-animation: fade 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 2s; /* Firefox < 16 */
-      -ms-animation: fade 2s; /* Internet Explorer */
-       -o-animation: fade 2s; /* Opera < 12.1 */
-          animation: fade 2s;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 .scrb{
@@ -42,11 +42,11 @@ body{
   left: 10%;
   width: 80%;
   position: relative;
-  -webkit-animation: fade 6s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 6s; /* Firefox < 16 */
-      -ms-animation: fade 6s; /* Internet Explorer */
-       -o-animation: fade 6s; /* Opera < 12.1 */
-          animation: fade 6s;
+  -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 6s; /* Firefox < 16 */
+      -ms-animation: fadein 6s; /* Internet Explorer */
+       -o-animation: fadein 6s; /* Opera < 12.1 */
+          animation: fadein 6s;
 }
 
 a:link{
@@ -77,35 +77,35 @@ a:visited{
 
 /* delayed animation for each table */
 .table1{
-  -webkit-animation: fade 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 2s; /* Firefox < 16 */
-      -ms-animation: fade 2s; /* Internet Explorer */
-       -o-animation: fade 2s; /* Opera < 12.1 */
-          animation: fade 2s;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 .table2{
-  -webkit-animation: fade 3s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 3s; /* Firefox < 16 */
-      -ms-animation: fade 3s; /* Internet Explorer */
-       -o-animation: fade 3s; /* Opera < 12.1 */
-          animation: fade 3s;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 3s; /* Firefox < 16 */
+      -ms-animation: fadein 3s; /* Internet Explorer */
+       -o-animation: fadein 3s; /* Opera < 12.1 */
+          animation: fadein 3s;
 }
 
 .table3{
-  -webkit-animation: fade 4s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 4s; /* Firefox < 16 */
-      -ms-animation: fade 4s; /* Internet Explorer */
-       -o-animation: fade 4s; /* Opera < 12.1 */
-          animation: fade 4s;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 4s; /* Firefox < 16 */
+      -ms-animation: fadein 4s; /* Internet Explorer */
+       -o-animation: fadein 4s; /* Opera < 12.1 */
+          animation: fadein 4s;
 }
 
 .table4{
-  -webkit-animation: fade 5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fade 5s; /* Firefox < 16 */
-      -ms-animation: fade 5s; /* Internet Explorer */
-       -o-animation: fade 5s; /* Opera < 12.1 */
-          animation: fade 5s;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 5s; /* Firefox < 16 */
+      -ms-animation: fadein 5s; /* Internet Explorer */
+       -o-animation: fadein 5s; /* Opera < 12.1 */
+          animation: fadein 5s;
 }
 
 /* styling for each arrow, it goes upside down on click */
@@ -165,21 +165,6 @@ a:visited{
     -moz-transform: rotate(225deg);
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@-moz-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 @keyframes fadein {
