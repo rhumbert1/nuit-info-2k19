@@ -44,6 +44,7 @@ $(document).ready(function(){
 // <script
 // src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
+/*
 var placeSearch, autocomplete;
 
 var componentForm = {
@@ -92,6 +93,28 @@ function fillInAddress() {
     }
   }
 }
+*/
+
+
+(function() {
+  var placesAutocomplete = places({
+    appId: 'plXG89814P7I',
+    apiKey: '3a86ae21762130e17ca68abce3ea6400',
+    container: document.querySelector('#form-address'),
+    templates: {
+      value: function(suggestion) {
+        return suggestion.name;
+      }
+    }
+  }).configure({
+    type: 'address'
+  });
+  placesAutocomplete.on('change', function resultSelected(e) {
+    document.querySelector('#form-address2').value = e.suggestion.administrative || '';
+    document.querySelector('#form-city').value = e.suggestion.city || '';
+    document.querySelector('#form-zip').value = e.suggestion.postcode || '';
+  });
+})();
 
 
 (function ($) {

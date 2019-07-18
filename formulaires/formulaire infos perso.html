@@ -79,11 +79,12 @@
 					</div>
 
 					<div class="wrap-input3 validate-input">
-						<input class="input3 p-r-50" id="autocomplete" name="address" placeholder="Adresse*" onFocus="geolocate()" type="text">
+						<input type="search" class="form-control input3 p-r-50" id="form-address" placeholder="Adresse*" />
 						<span class="focus-input3"></span>
 				 	</div>
 
-						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4TYnCXuhZaDcZkLeBs90dy31uXHbbJdo&libraries=places&callback=initAutocomplete" async defer></script>
+					<script src="https://cdn.jsdelivr.net/npm/places.js@1.16.4"></script>
+					<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4TYnCXuhZaDcZkLeBs90dy31uXHbbJdo&libraries=places&callback=initAutocomplete" async defer></script>-->
 
 				<p style="font-size:15px;color:#b3b3b3;text-align:center;">Les champs comportant une * doivent impérativement être complétés</p>
 
