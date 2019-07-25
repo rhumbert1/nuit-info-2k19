@@ -3,8 +3,8 @@
 <?php
 
 $host='localhost';
-$username='root';
-$password='';
+$username='user';
+$password='k48n4INqzpNU0UGr';
 $db_name='devisms';
 $table='infos_ventil';
 
