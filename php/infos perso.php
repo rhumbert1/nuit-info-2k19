@@ -20,7 +20,8 @@ mysqli_select_db($connection, $db_name);
 
 $table='client';
 
-
+$a=mysqli_query($connection, "SELECT MAX(id) FROM 'client'");
+$id_client=$a+1;
 $last_name=$_POST['last_name'];
 $first_name=$_POST['first_name'];
 $email=$_POST['email'];
@@ -29,11 +30,13 @@ $address=$_POST['address'];
 $city=$_POST['city'];
 $zip=$_POST['zip'];
 
-$test=mysqli_query($connection, "INSERT INTO $table (last_name, first_name, email, phone, address, city, zip)
-VALUES ('$last_name', '$first_name', '$email', '$phone', '$address', '$city', '$zip')");
+mysqli_query($connection, "INSERT INTO $table (id_client, last_name, first_name, email, phone, address, city, zip)
+VALUES ('$id_client', '$last_name', '$first_name', '$email', '$phone', '$address', '$city', '$zip')");
 
 $table='equipement';
 
+$b=mysqli_query($connection, "SELECT MAX(id) FROM 'equipement'");
+$id_equipement=$b+1
 $duree=$_SESSION['duree'];
 $type=$_SESSION['type'];
 $install_type=$_SESSION['install_type'];
@@ -42,14 +45,22 @@ $marque=$_SESSION['marque'];
 $annee=$_SESSION['annee'];
 $nbr=$_SESSION['nbr'];
 
-$test=mysqli_query($connection, "INSERT INTO $table (duree, type, install_type, puissance, marque, annee, nbr)
-VALUES ('$duree', '$type', '$install_type', '$puissance', '$marque', '$annee', '$nbr')");
+mysqli_query($connection, "INSERT INTO $table (id_equipement, duree, type, install_type, puissance, marque, annee, nbr)
+VALUES ('$id_equipement', '$duree', '$type', '$install_type', '$puissance', '$marque', '$annee', '$nbr')");
+
+
+$table='client-equipement';
+
+$c=mysqli_query($connection, "SELECT MAX(id) FROM 'client-equipement'");
+$id=$c+1;
+
+mysqli_query($connection, "INSERT INTO $table (id, id_client, id_equipement) VALUES ('$id', '$id_client', '$id_equipement')");
 
 
 $table='devis';
 
 $date=date('Y/m/d');
-
+$infos=
 
 mysqli_close($connection);
 
