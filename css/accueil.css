@@ -2,6 +2,14 @@ body{
   font-family: 'Montserrat';
 }
 
+#chat{
+  z-index: 50;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .commonninja_component{
   position: relative;
   padding: 20px;
@@ -243,6 +251,7 @@ body, html {
 #fond {
   position: fixed;
   overflow:hidden;
+  z-index: -1;
 }
 
 #fond img {
@@ -297,7 +306,7 @@ background-size: cover;
 .dropdown {
   float: left;
   overflow: hidden;
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -487,14 +496,14 @@ background-size: cover;
 }
 
 #urgent{
-  margin-left: 5%;
-  background-color: #ff5500;
+  margin-left: 7%;
+  background-color: #b30000;
   color: #fff;
   z-index: 150;
 }
 
 #urgent:hover{
-  background-color: #b30000;
+  background-color: #b33;
 }
 
 /* styling for the pricing tables */

@@ -264,7 +264,7 @@ background-size: cover;/* covers the whole page */
 .dropdown {
   float: left;
   overflow: hidden;/* hidden by default so it doesn't show the links below */
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -487,14 +487,14 @@ background-size: cover;/* covers the whole page */
   cursor: pointer;
 }
 
-/* far right button, background is colored in orange for better UX */
+/* far right button, background is colored in red for better UX */
 #urgent{
-  margin-left: 5%;
-  background-color: #ff5500;
+  margin-left: 7%;
+  background-color: #b30000;
   color: #fff;
   z-index: 150;
 }
 
 #urgent:hover{
-  background-color: #b30000;
+  background-color: #b33;
 }

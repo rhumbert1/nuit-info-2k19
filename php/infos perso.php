@@ -60,7 +60,10 @@ mysqli_query($connection, "INSERT INTO $table (id, id_client, id_equipement) VAL
 $table='devis';
 
 $date=date('Y/m/d');
-$infos=
+$duree=$_SESSION['duree'];
+$infos=$id;
+
+mysqli_query($connection, "INSERT INTO $table (date, duree, infos) VALUES ('$date', '$duree', '$infos')");
 
 mysqli_close($connection);
 

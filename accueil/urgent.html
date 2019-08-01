@@ -9,8 +9,8 @@
 </head>
 <body>
 
-  <div class="navbar" id="myNavbar">
-    <img src="../images/logo MS.png" id="logo" alt="" onclick="openUrl()">
+  <div class="navbar" id="myNavbar"> <!-- Navbar at the top of the page -->
+    <img src="../images/logo MS.png" id="logo" alt="" onclick="openUrl()"> <!-- Clickable logo, redirects to main page -->
     <div class="dropdown">
       <button class="dropbtn" onclick="myFunction()">Entretenir</button>
       <div class="dropdown-content" id="myDropdown">
@@ -27,26 +27,14 @@
         <a href="accueil sanitaire.html">Sanitaire</a>
       </div>
     </div>
-    <div class="dropdown"><button class="dropbtn" onclick="document.location.href='residence.html';">Résidence</button></div>
-    <a href="urgent.html" id="urgent">Dépannage Urgent</a>
-    <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a>
+      <div class="dropdown"><button class="dropbtn" onclick="document.location.href='residence.html';">Résidence</button></div>
+      <a href="urgent.html" id="urgent">Dépannage Urgent</a>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a> <!-- icon for  the responsive navbar -->
   </div>
 
-  <div id="fond"><img src="../images/fond.jpg" alt=""></div>
+  <div id="fond"><img src="https://rhumbert1.github.io/devis-ms/images/fond.jpg" alt=""></div>
 
-  <p class="titre">Découvrez nos contrats pour résidences !</p>
-  <p class="presentation">Propriétaire ? Locataire ? Quels équipements devez vous entretenir ? La réponse à vos questions ci-dessous</p>
+<iframe src="https://tawk.to/chat/5d428b47e5ae967ef80dd804/default" width="75%" height="60%" id="chat"></iframe>
 
-  <div class="commonninja_component" comp-type="comparison_table" comp-id="fb931064-3ccf-43d6-a68d-d39582b91077"></div>
-
-  <script type="text/javascript">
-      (function() {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://cdn.commoninja.com/sdk/latest/commonninja.js';
-        document.getElementsByTagName('head')[0].appendChild(script);
-      })();
-  </script>
-  <script src="../js/accueil.js"></script>
 </body>
 </html>
