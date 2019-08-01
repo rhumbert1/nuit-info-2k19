@@ -264,7 +264,7 @@ background-size: cover;/* covers the whole page */
 .dropdown {
   float: left;
   overflow: hidden;/* hidden by default so it doesn't show the links below */
-  margin-left: 7%;
+  margin-left: 5%;
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -489,7 +489,7 @@ background-size: cover;/* covers the whole page */
 
 /* far right button, background is colored in red for better UX */
 #urgent{
-  margin-left: 7%;
+  margin-left: 5%;
   background-color: #b30000;
   color: #fff;
   z-index: 150;
