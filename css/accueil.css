@@ -3,7 +3,7 @@ body{
 }
 
 #chat{
-  z-index: 50;
+  z-index: 5;
   position: fixed;
   top: 50%;
   left: 50%;

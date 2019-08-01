@@ -43,7 +43,7 @@ function responsiveNavbar() {
 }
 
 function openUrl() {
-window.location.href = "https://rhumbert1.github.io/devis-ms/index.html";
+window.location.href = "../index.html";
 }
 
 /* When the user clicks on the button,
