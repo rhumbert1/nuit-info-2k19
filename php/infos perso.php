@@ -1,6 +1,6 @@
 <html>
 <head><meta http-equiv="refresh" content="0.1; URL=../index.html"></head>
-<?php
+<?php/*
 
 $host='localhost';
 $username='user';
@@ -68,6 +68,6 @@ mysqli_query($connection, "INSERT INTO $table (date, duree, infos) VALUES ('$dat
 mysqli_close($connection);
 
 session_unset();
-session_destroy();
+session_destroy(); */
 ?>
 </html>
