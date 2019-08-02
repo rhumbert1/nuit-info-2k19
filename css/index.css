@@ -199,23 +199,22 @@
   }
 }
 
-/* positionning the background wrapper on the page */
 #fond {
   position: fixed;
-  overflow: hidden;
+  overflow:hidden;
+  z-index: -1;
 }
 
-/* background image styling */
 #fond img {
-  width: 100%;/* takes all the space given */
+  width: 100%;
   height: 100%;
-  background-repeat: no-repeat;/* doesn't repeat if the image is smaller than the screen */
-background-position: center center;/* center the image horizontally and vertically */
+  background-repeat: no-repeat;
+background-position: center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;/* covers the whole page */
-  filter: opacity(60%);/* reduces opacity */
+background-size: cover;
+  filter: opacity(50%) blur(3px);
 }
 
 .contenu{
