@@ -8,7 +8,7 @@ function responsiveNavbar() {
 }
 
 function openUrl() {
-window.location.href = "../index.html";
+window.location.href = "";
 }
 
 /* When the user clicks on the button,
