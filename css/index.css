@@ -27,6 +27,15 @@
   filter: opacity(50%) blur(3px);
 }
 
+.jean-cloud{
+  z-index: 20;
+  width: 44px;
+  height: 40px;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+
 .contenu{
   z-index: 10;
   position: absolute;
