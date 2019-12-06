@@ -28,11 +28,13 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'tiledesk-jssdk'));
   </script>-->
+
 </head>
 <body>
-
-<div class="navbar" id="myNavbar"> <!-- Navbar at the top of the page -->
-  <img src="images/logo MS.png" id="logo" alt="" onclick="openUrl()"> <!-- Clickable logo, redirects to main page -->
+<div id="fond"></div>
+<div class="contenu">
+<!--<div class="navbar" id="myNavbar">
+  <img src="images/logo MS.png" id="logo" alt="" onclick="openUrl()">
   <div class="dropdown">
     <button class="dropbtn" onclick="myFunction()">Entretenir</button>
     <div class="dropdown-content" id="myDropdown">
@@ -51,10 +53,13 @@
   </div>
     <div class="dropdown"><button class="dropbtn" onclick="document.location.href='accueil/residence.html';">Résidence</button></div>
     <a href="accueil/urgent.html" id="urgent">Dépannage Urgent</a>
-  <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a> <!-- icon for  the responsive navbar -->
-</div>
+  <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a>
+</div>-->
 
-<div id="slide"><!-- slideshow -->
+<iframe src="https://webchat.snatchbot.me/bd2a8c683edae1fcd599415db56cec04ad25589c119e5fcc42eea3e38f1a7952" class="chatbot"></iframe>
+
+<!--
+<div id="slide">
   <div class="slideshow-container">
     <div class="mySlides fade"> <img src="images/fond.jpg" class="fondSlide">
       <div class="text">
@@ -68,13 +73,13 @@ A proximité de chez vous, nos équipes peuvent intervenir à votre domicile à 
       <div class="text">
         EN CE MOMENT<br><br>Profitez de nos contrats de maintenance 1 an sur les climatiseurs à prix avantageux !<br><br>Pour ne jamais tomber en panne pendant une canicule ! <br><br>    <a class="btn white" href="https://rhumbert1.github.io/devis-ms/formulaires/ventilation - clim/formulaire split 1an.html">CLIQUEZ ICI</a>
       </div></div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div><!-- arrows to control the slideshow -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
   <br>
-  <div style="text-align:center;"><!-- bots to control the slideshow and to indicate wich slide is currently shown -->
+  <div style="text-align:center;">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
+</div>-->
 </div>
-
 <script src="js/main.js"></script>
 </body>
 </html>
